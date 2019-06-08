@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { Route, Switch} from 'react-router-dom';
 import { CSSTransition, TransitionGroup} from 'react-transition-group';
 import Home from '../../Components/Home';
 import About from '../../Components/About';
@@ -12,7 +12,7 @@ const Body:React.FC = () => {
     return(
       <div>
 
-      <BrowserRouter>
+      
         <Route 
 // tslint:disable-next-line: jsx-no-multiline-js
               render={({location}) => (
@@ -36,7 +36,7 @@ const Body:React.FC = () => {
                 </TransitionGroup>
                 )} 
           />
-        </BrowserRouter>
+        
       </div>
     ) 
 }
