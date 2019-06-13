@@ -1,10 +1,11 @@
 import React from 'react';
 import { Route, Switch} from 'react-router-dom';
 import { CSSTransition, TransitionGroup} from 'react-transition-group';
-import Home from '../../Components/Home';
-import About from '../../Components/About';
-import Contact from '../../Components/Contact';
-import Error from '../../Components/Error';
+import Home from './Home/Home';
+import About from './About/About';
+import Contact from './Contact/Contact';
+import Error from './Error/Error';
+import './Body.css';
 
 
 const Body:React.FC = () => {

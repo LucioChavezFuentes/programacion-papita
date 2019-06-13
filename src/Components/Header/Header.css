@@ -1,0 +1,11 @@
+.header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    right:0;
+    background-color: black;
+    z-index: 1;
+    top: 0;
+    
+}

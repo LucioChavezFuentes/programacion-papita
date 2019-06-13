@@ -23,32 +23,7 @@
   color: #61dafb;
 }
 
-.page {
-  position: absolute;
-  top: 10px;
-  left: 0;
-  right: 0;
-}
 
-
-.fade-enter {
-  opacity: 0;
-  z-index: 1;
-}
-
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 300ms linear 150ms;
-}
-
-.fade-exit {
-  opacity: 1;
-}
-
-.fade-exit-active {
-  opacity: 0;
-  transition: opacity 150ms linear ;
-}
 
 @keyframes App-logo-spin {
   from {
