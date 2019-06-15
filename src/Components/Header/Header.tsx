@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css'
 
 
 import { NavLink } from 'react-router-dom';
@@ -15,13 +16,15 @@ const Header: React.FC<headerState> = (props) => {
     <div className="header">
       <div className="leftSection"> 
         <NavLink to='/'> Home </NavLink>
-        <NavLink to='/about' > About </NavLink>
-        <NavLink to='/contact'> Contact </NavLink>
+  {/* Check these Links for further implementation 
+  <NavLink to='/about' > About </NavLink>
+        <NavLink to='/contact'> Contact </NavLink>*/}
+        
       </div>
 
       <div className="rightSection">
-        <NavLink to='/'> Log in </NavLink>
-        <NavLink to='/about' > Sign Up </NavLink>
+        <NavLink to='/login'> Log in </NavLink>
+        <NavLink to='/register' > Sign Up </NavLink>
       </div>
       
         
