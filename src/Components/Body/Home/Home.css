@@ -1,0 +1,14 @@
+.home-page {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.greeting {
+    font-size: 2.1rem
+}
+
+.registration {
+    font-size: 1.1rem
+}
