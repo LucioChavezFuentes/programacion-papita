@@ -2,8 +2,8 @@ import React from 'react';
 
 import './App.css';
 import {BrowserRouter } from 'react-router-dom';
-import Header from './Components/Header/Header';
-import Body from './Components/Body/Body'
+import Header from './components/Header/Header';
+import Body from './components/Body/Body'
 
 const App: React.FC = () => {
   return (

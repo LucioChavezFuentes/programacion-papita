@@ -1,8 +1,8 @@
-import React from 'react';
+import React from './node_modules/react';
 import './Header.css'
 
 
-import { NavLink } from 'react-router-dom';
+import { NavLink } from './node_modules/react-router-dom';
 
 
 
