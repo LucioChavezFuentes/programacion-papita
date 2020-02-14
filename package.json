@@ -21,7 +21,7 @@
     "react-test-renderer": "^16.8.6",
     "react-transition-group": "^4.1.0",
     "typescript": "^3.5.1",
-    "yarn": "^1.16.0"
+    "yarn": "^1.22.0"
   },
   "scripts": {
     "start": "react-scripts start",
